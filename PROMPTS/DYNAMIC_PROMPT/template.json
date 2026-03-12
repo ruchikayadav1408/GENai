@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Explain the research paper \"{paper_input}\" in a {style_input} style. \n    The explanation should be {length_input}. \n    Include the following sections:\n\n\n    1. Main idea of the paper\n\n    2. Problem the paper solves\n3. Key techniques or architecture\n\n    4. Why it is important in AI research\n\n\n    Make the explanation clear and structured.",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
